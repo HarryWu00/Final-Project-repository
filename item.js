@@ -5,10 +5,9 @@ class Item{
     this.price = p;
     this.shippingTime = st;
   }
-
+}
 
 //Create your three test items below this comment.
-  var tablet = new Item ("Ipad",1234,3);
-  var phone =  new Item ("Mate9",765,2);
-  var book = new Item ("Book", 15,8);
-  console.log()
+  var tablet = new Item("Ipad",1234,3);
+  var phone =  new Item("Mate9",765,2);
+  var book = new Item("Book", 15,8);
