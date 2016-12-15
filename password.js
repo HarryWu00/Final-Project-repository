@@ -23,16 +23,32 @@ class Password{
       else{
         return false;
       }
-    }
-    else{
-      return false;
-    }
+
   }
 
   //Static function below this comment.
-static makePrivateKey()
-  var key=[];
-  var limit = 14;
-  for(var p=0, p<this.privatekey.length,p++)
 
+}
+static makePrivateKey(){
+  let key="";
+  let limit = 14;
+
+  for(var n=0; n<12;n++){
+    function getrandomkey(){
+      return Math.random();
+    }
+    let key = Math.random();
+
+
+
+  }
+
+
+
+for(){
+  make a #
+  # to ""
+  clue # to key
+}
+####-####-####
 }
