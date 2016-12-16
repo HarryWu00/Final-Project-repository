@@ -17,7 +17,6 @@ class Password{
   }
   validPrivateKey(){
     if(this.privatekey[4] == "-" && this.privatekey[9] == "-"){
-      if(){
         return true;
       }
       else{
@@ -29,16 +28,13 @@ class Password{
   //Static function below this comment.
 
 }
-static makePrivateKey(){
+static makePsrivateKey(){
   let key="";
   let limit = 14;
 
   for(var n=0; n<12;n++){
-    function getrandomkey(){
-      return Math.random();
-    }
-    let key = Math.random();
-
+    let number = Math.round(Math.random()*10);
+  }
 
 
   }

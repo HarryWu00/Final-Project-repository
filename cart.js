@@ -12,16 +12,18 @@ class Cart{
   }
   totalCart(){
     let total = 0;
-    for(c = 0, c<this.itemList.length, c++){
-    total += this.itemList[c].price * this.itemQuantity[c];
+    for(var c = 0;c<this.itemList.length;c++){
+      total += this.itemList[c].price * this.itemQuantity[c];
     }
+
     return total;
   }
   subCart(days){
     subCart = new Cart([],[]);
-    for(c = 0, c<this.itemList.length, c++){
+    for(c = 0; c<this.itemList.length; c++){
       if(this.itemList[c].shipping == days){
         subCart.itemList.push(this.itemList[c]);
+        subCart.itemQuantity.push(this.itemQuantity[c]);
       }
     }
     return subCart;
