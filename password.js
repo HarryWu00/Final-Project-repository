@@ -27,24 +27,25 @@ class Password{
 
   //Static function below this comment.
 
-}
-static makePsrivateKey(){
+
+static makePrivateKey(){
   let key="";
   let limit = 14;
 
   for(var n=0; n<12;n++){
     let number = Math.round(Math.random()*10);
+    number.push[4,9]=="-";
   }
 
 
-  }
-
-
-
-for(){
-  make a #
-  # to ""
-  clue # to key
 }
-####-####-####
 }
+
+
+//for(){
+  //make a #
+  //to ""
+  //clue # to key
+//}
+//####-####-####
+//}
